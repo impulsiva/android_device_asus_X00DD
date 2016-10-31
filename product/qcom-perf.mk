@@ -4,8 +4,9 @@ PRODUCT_COPY_FILES += \
 
 # Init scripts
 PRODUCT_PACKAGES += \
-    init.qcom.post_boot.sh
-    
+    init.qcom.post_boot.sh \
+    init.qcom.power.rc
+
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.am.reschedule_service=true \
