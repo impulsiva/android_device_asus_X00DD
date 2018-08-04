@@ -51,7 +51,9 @@ TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
 # TWRP-Specific
 TW_THEME := portrait_hdpi
-TW_NO_EXFAT_FUSE := true
+TW_INCLUDE_FUSE_NTFS := true
+TW_INCLUDE_FUSE_EXFAT := true
+TW_INCLUDE_NTFS_3G := true
 # don't have enough space
 #TW_EXTRA_LANGUAGES := true
 RECOVERY_SDCARD_ON_DATA := true
