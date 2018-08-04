@@ -1,3 +1,14 @@
 [
-
+  {
+    "remote": "github",
+    "repository": "Zentalk-VN/android_kernel_asus_ZC553KL",
+    "revision": "master",
+    "target_path": "kernel/asus/ZC553KL"
+  },
+  {
+    "remote": "github",
+    "repository": "TeamWin/android_device_qcom_common",
+    "revision": "android-7.1",
+    "target_path": "device/qcom/common"
+  }
 ]
