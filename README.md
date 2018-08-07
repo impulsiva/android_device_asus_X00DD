@@ -10,8 +10,8 @@
 | Storage                 | 32 GB                             |
 | MicroSD                 | Up to 128 GB                      |
 | Battery                 | 4100 mAh (non-removable)          |
-| Dimensions              | 139.3 x 69.6 x 8.5 mm             |
-| Display                 | 720 x 1280 pixels, 5.0" IPS LCD   |
+| Dimensions              | 151.4 x 76.24 x 8.3 mm            |
+| Display                 | 1920 x 1080 pixels, 5.5" IPS LCD  |
 | Rear Camera             | 16 MP, LED flash                  |
 | Front Camera            | 8 MP                              |
 | Release Date            | June 2016                         |
