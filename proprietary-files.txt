@@ -818,3 +818,4 @@ vendor/lib/mediadrm/libwvdrmengine.so
 # Wifi
 bin/cnss-daemon
 bin/cnss_diag
+lib/modules/pronto/pronto_wlan.ko
