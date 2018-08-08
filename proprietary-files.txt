@@ -808,6 +808,25 @@ vendor/lib64/libimsmedia_jni.so
 vendor/lib64/librcc.so
 vendor/lib64/libvoice-svc.so
 
+# Radio - MBN
+etc/firmware/modem_config/AA1/RU/AA_MegaFon_mcfg_sw.mbn
+etc/firmware/modem_config/AA1/RU/AA_MTS_mcfg_sw.mbn
+etc/firmware/modem_config/AA1/RU/AA_ROW_mcfg_sw.mbn
+etc/firmware/modem_config/AA1/WW/AA_ROW_mcfg_sw.mbn
+etc/firmware/modem_config/AA1/WW/AA_VF_mcfg_sw.mbn
+etc/firmware/modem_config/BA1/JP/BA_DOCOMO_mcfg_sw.mbn
+etc/firmware/modem_config/BA1/JP/BA_KDDI_mcfg_sw.mbn
+etc/firmware/modem_config/BA1/JP/BA_ROW_mcfg_sw.mbn
+etc/firmware/modem_config/BA1/SG/BA_ROW_mcfg_sw.mbn
+etc/firmware/modem_config/BA1/SG/BA_Starhub_mcfg_sw.mbn
+etc/firmware/modem_config/BA1/TW/BA_FET_mcfg_sw.mbn
+etc/firmware/modem_config/BA1/TW/BA_Gt4G_mcfg_sw.mbn
+etc/firmware/modem_config/BA1/TW/BA_ROW_mcfg_sw.mbn
+etc/firmware/modem_config/BA1/TW/BA_TStar_mcfg_sw.mbn
+etc/firmware/modem_config/BA1/TW/BA_TWM_mcfg_sw.mbn
+etc/firmware/modem_config/CA1/IN/CA_Reliance_mcfg_sw.mbn
+etc/firmware/modem_config/CA1/IN/CA_ROW_mcfg_sw.mbn
+
 # Sensors
 bin/sensors.qcom
 etc/sensors/hals.conf
