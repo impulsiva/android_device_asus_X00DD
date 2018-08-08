@@ -21,7 +21,7 @@ $(call inherit-product, $(LOCAL_PATH)/PlatformConfig.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common CM stuff
+# Inherit some common Lineage stuff
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit from X00DD device
@@ -30,7 +30,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := ASUS
 PRODUCT_DEVICE := ASUS_X00DD
 PRODUCT_MANUFACTURER := ASUS
-PRODUCT_NAME := cm_X00DD
+PRODUCT_NAME := lineage_X00DD
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 TARGET_VENDOR_PRODUCT_NAME := X00DD
 
