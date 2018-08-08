@@ -21,8 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common CM stuff
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-# Inherit from land device
+# Inherit from X00DD device
 $(call inherit-product, device/asus/X00DD/device.mk)
+
+# Must define platform before including any common things
+$(call inherit-product, device/asus/X00DD/board/00-qcom-platform-msm8937.mk)
 
 PRODUCT_BRAND := ASUS
 PRODUCT_DEVICE := X00DD
