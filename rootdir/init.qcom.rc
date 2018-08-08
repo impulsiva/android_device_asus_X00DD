@@ -76,10 +76,6 @@ on fs
 	setprop persist.radio.start_ota_daemon 1
 	setprop persist.radio.sw_mbn_loaded 1
 	setprop persist.radio.sw_mbn_openmkt 1
-
-on post-fs
-    wait /dev/block/bootdevice/by-name/oem
-    mount ext4 /dev/block/bootdevice/by-name/oem /oem ro nosuid nodev barrier=1
         
 # msm specific files that need to be created on /data
 on post-fs-data
