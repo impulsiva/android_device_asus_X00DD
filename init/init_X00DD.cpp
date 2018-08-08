@@ -121,15 +121,15 @@ void vendor_load_properties()
     if (!strcmp(board_id, "K89200AA1")) {
         property_set("ro.build.display.wtid", "SW_K89200AA1_N_V355_89200_1_13_R1_ASUS_USR_MP");
     } else if (!strcmp(board_id, "K89200AB1")) {
-        property_set("ro.build.display.wtid", "SW_K89200AA1_N_V355_89200_1_13_R1_ASUS_USR_MP");
+        property_set("ro.build.display.wtid", "SW_K89200AB1_N_V355_89200_1_13_R1_ASUS_USR_MP");
     } else if (!strcmp(board_id, "K89200AC1")) {
-        property_set("ro.build.display.wtid", "SW_K89200AA1_N_V355_89200_1_13_R1_ASUS_USR_MP");
+        property_set("ro.build.display.wtid", "SW_K89200AC1_N_V355_89200_1_13_R1_ASUS_USR_MP");
     } else if (!strcmp(board_id, "K89200BA1")) {
-        property_set("ro.build.display.wtid", "SW_K89200AA1_N_V355_89200_1_13_R1_ASUS_USR_MP");
+        property_set("ro.build.display.wtid", "SW_K89200BA1_N_V355_89200_1_13_R1_ASUS_USR_MP");
     } else if (!strcmp(board_id, "K89200CA1")) {
-        property_set("ro.build.display.wtid", "SW_K89200AA1_N_V355_89200_1_13_R1_ASUS_USR_MP");
+        property_set("ro.build.display.wtid", "SW_K89200CA1_N_V355_89200_1_13_R1_ASUS_USR_MP");
     } else if (!strcmp(board_id, "K89200EC1")) {
-        property_set("ro.build.display.wtid", "SW_K89200AA1_N_V355_89200_1_13_R1_ASUS_USR_MP");
+        property_set("ro.build.display.wtid", "SW_K89200EC1_N_V355_89200_1_13_R1_ASUS_USR_MP");
     }
 
     init_alarm_boot_properties();
