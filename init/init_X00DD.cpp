@@ -118,18 +118,18 @@ void vendor_load_properties()
 
     property_set("ro.product.wt.boardid", board_id);
 
-    if (!strcmp(board_id, "S88537AA1")) {
-        property_set("ro.build.display.wtid", "SW_S88537AA1_V053_M20_MP_XM");
-    } else if (!strcmp(board_id, "S88537AB1")) {
-        property_set("ro.build.display.wtid", "SW_S88537AB1_V053_M20_MP_XM");
-    } else if (!strcmp(board_id, "S88537AC1")) {
-        property_set("ro.build.display.wtid", "SW_S88537AC1_V053_M20_MP_XM");
-    } else if (!strcmp(board_id, "S88537BA1")) {
-        property_set("ro.build.display.wtid", "SW_S88537BA1_V053_M20_MP_XM");
-    } else if (!strcmp(board_id, "S88537CA1")) {
-        property_set("ro.build.display.wtid", "SW_S88537CA1_V053_M20_MP_XM");
-    } else if (!strcmp(board_id, "S88537EC1")) {
-        property_set("ro.build.display.wtid", "SW_S88537EC1_V053_M20_MP_XM");
+    if (!strcmp(board_id, "K89200AA1")) {
+        property_set("ro.build.display.wtid", "SW_K89200AA1_N_V355_89200_1_13_R1_ASUS_USR_MP");
+    } else if (!strcmp(board_id, "K89200AB1")) {
+        property_set("ro.build.display.wtid", "SW_K89200AA1_N_V355_89200_1_13_R1_ASUS_USR_MP");
+    } else if (!strcmp(board_id, "K89200AC1")) {
+        property_set("ro.build.display.wtid", "SW_K89200AA1_N_V355_89200_1_13_R1_ASUS_USR_MP");
+    } else if (!strcmp(board_id, "K89200BA1")) {
+        property_set("ro.build.display.wtid", "SW_K89200AA1_N_V355_89200_1_13_R1_ASUS_USR_MP");
+    } else if (!strcmp(board_id, "K89200CA1")) {
+        property_set("ro.build.display.wtid", "SW_K89200AA1_N_V355_89200_1_13_R1_ASUS_USR_MP");
+    } else if (!strcmp(board_id, "K89200EC1")) {
+        property_set("ro.build.display.wtid", "SW_K89200AA1_N_V355_89200_1_13_R1_ASUS_USR_MP");
     }
 
     init_alarm_boot_properties();
