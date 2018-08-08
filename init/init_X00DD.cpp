@@ -132,5 +132,11 @@ void vendor_load_properties()
         property_set("ro.build.display.wtid", "SW_K89200EC1_N_V355_89200_1_13_R1_ASUS_USR_MP");
     }
 
+    if (!strcmp(board_id, "K89200AA1")) {
+        property_set("ro.product.model", "ASUS_X00DD");
+    } else {
+        property_set("ro.product.model", "ASUS_X00DD");
+    }
+
     init_alarm_boot_properties();
 }
