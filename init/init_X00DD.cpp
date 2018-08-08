@@ -107,6 +107,13 @@ static void init_alarm_boot_properties()
 
 void vendor_load_properties()
 {
+    char device[PROP_VALUE_MAX];
+    int rc;
+    
+    rc = property_get("ro.cm.device", device);
+    if (!rc || strncmp(device, "X00DD", PROP_VALUE_MAX))
+        return;
+
     import_kernel_cmdline(0, import_cmdline);
 
     property_set("ro.product.wt.boardid", board_id);
