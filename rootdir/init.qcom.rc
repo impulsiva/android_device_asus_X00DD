@@ -427,13 +427,6 @@ on class_start:late_start
     copy /system/vendor/qcril.db /data/misc/radio/qcril.db
     chown radio radio /data/misc/radio/qcril.db
     write /data/misc/radio/db_check_done 1
-    
-service perfd /system/vendor/bin/perfd
-   class main
-   user root
-   group root readproc
-   disabled
-   socket perfd seqpacket 0666 root system
 
 service iop /system/bin/iop
     class main
@@ -1013,6 +1006,7 @@ service qseecomd /system/bin/qseecomd
 service perfd /system/vendor/bin/perfd
    class main
    user root
+   socket perfd seqpacket 0666 root system
    disabled
    writepid /dev/cpuset/system-background/tasks
 
@@ -1038,7 +1032,6 @@ service wcnss-service /system/bin/wcnss_service
     class main
     user system
     group system wifi radio
-    restart
 
 service imsqmidaemon /system/bin/imsqmidaemon
     class main
