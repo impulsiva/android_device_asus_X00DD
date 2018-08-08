@@ -307,7 +307,6 @@ on charger
 #[PLATFORM]-Add-END by pingao.yang
     setprop sys.usb.configfs 0
     setprop persist.sys.usb.config mass_storage
-    start qcom-post-boot
     setprop persist.sys.usb.config mass_storage
     #start hvdcp_opti	#[PLATFORM]-remove by pingao.yang, 2016/12/27
 
